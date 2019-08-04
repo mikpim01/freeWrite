@@ -18,3 +18,7 @@ To discourage deletion or revision:
 - [x] Logging prohibitted on past or future dates
 - [ ] Logging profiles frontend to database selection
 - [ ] Alert dialog at Deletion/Revision attempts
+
+## Implementation
+
+Python3.7 with modules dbm and PyQt5. 

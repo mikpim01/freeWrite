@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'fWlayout-config.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Config(object):
+    def setupUi(self, Config):
+        Config.setObjectName("Config")
+        Config.resize(437, 425)
+        self.gridLayout_2 = QtWidgets.QGridLayout(Config)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.formLayout = QtWidgets.QFormLayout()
+        self.formLayout.setObjectName("formLayout")
+        self.label = QtWidgets.QLabel(Config)
+        self.label.setObjectName("label")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label)
+        self.label_2 = QtWidgets.QLabel(Config)
+        self.label_2.setObjectName("label_2")
+        self.formLayout.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.label_2)
+        self.label_3 = QtWidgets.QLabel(Config)
+        self.label_3.setObjectName("label_3")
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.LabelRole, self.label_3)
+        self.label_4 = QtWidgets.QLabel(Config)
+        self.label_4.setObjectName("label_4")
+        self.formLayout.setWidget(3, QtWidgets.QFormLayout.LabelRole, self.label_4)
+        self.label_5 = QtWidgets.QLabel(Config)
+        self.label_5.setObjectName("label_5")
+        self.formLayout.setWidget(4, QtWidgets.QFormLayout.LabelRole, self.label_5)
+        self.label_6 = QtWidgets.QLabel(Config)
+        self.label_6.setObjectName("label_6")
+        self.formLayout.setWidget(5, QtWidgets.QFormLayout.LabelRole, self.label_6)
+        self.label_7 = QtWidgets.QLabel(Config)
+        self.label_7.setObjectName("label_7")
+        self.formLayout.setWidget(6, QtWidgets.QFormLayout.LabelRole, self.label_7)
+        self.label_8 = QtWidgets.QLabel(Config)
+        self.label_8.setObjectName("label_8")
+        self.formLayout.setWidget(7, QtWidgets.QFormLayout.LabelRole, self.label_8)
+        self.label_9 = QtWidgets.QLabel(Config)
+        self.label_9.setObjectName("label_9")
+        self.formLayout.setWidget(8, QtWidgets.QFormLayout.LabelRole, self.label_9)
+        self.lineEdit = QtWidgets.QLineEdit(Config)
+        self.lineEdit.setObjectName("lineEdit")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.lineEdit)
+        self.lineEdit_2 = QtWidgets.QLineEdit(Config)
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.lineEdit_2)
+        self.lineEdit_3 = QtWidgets.QLineEdit(Config)
+        self.lineEdit_3.setObjectName("lineEdit_3")
+        self.formLayout.setWidget(2, QtWidgets.QFormLayout.FieldRole, self.lineEdit_3)
+        self.lineEdit_4 = QtWidgets.QLineEdit(Config)
+        self.lineEdit_4.setObjectName("lineEdit_4")
+        self.formLayout.setWidget(3, QtWidgets.QFormLayout.FieldRole, self.lineEdit_4)
+        self.lineEdit_5 = QtWidgets.QLineEdit(Config)
+        self.lineEdit_5.setText("")
+        self.lineEdit_5.setObjectName("lineEdit_5")
+        self.formLayout.setWidget(4, QtWidgets.QFormLayout.FieldRole, self.lineEdit_5)
+        self.lineEdit_6 = QtWidgets.QLineEdit(Config)
+        self.lineEdit_6.setObjectName("lineEdit_6")
+        self.formLayout.setWidget(5, QtWidgets.QFormLayout.FieldRole, self.lineEdit_6)
+        self.lineEdit_7 = QtWidgets.QLineEdit(Config)
+        self.lineEdit_7.setObjectName("lineEdit_7")
+        self.formLayout.setWidget(6, QtWidgets.QFormLayout.FieldRole, self.lineEdit_7)
+        self.lineEdit_8 = QtWidgets.QLineEdit(Config)
+        self.lineEdit_8.setObjectName("lineEdit_8")
+        self.formLayout.setWidget(7, QtWidgets.QFormLayout.FieldRole, self.lineEdit_8)
+        self.lineEdit_9 = QtWidgets.QLineEdit(Config)
+        self.lineEdit_9.setObjectName("lineEdit_9")
+        self.formLayout.setWidget(8, QtWidgets.QFormLayout.FieldRole, self.lineEdit_9)
+        self.buttonBox = QtWidgets.QDialogButtonBox(Config)
+        self.buttonBox.setOrientation(QtCore.Qt.Horizontal)
+        self.buttonBox.setStandardButtons(QtWidgets.QDialogButtonBox.Cancel|QtWidgets.QDialogButtonBox.Ok)
+        self.buttonBox.setObjectName("buttonBox")
+        self.formLayout.setWidget(9, QtWidgets.QFormLayout.FieldRole, self.buttonBox)
+        self.gridLayout_2.addLayout(self.formLayout, 0, 0, 1, 1)
+
+        self.retranslateUi(Config)
+        QtCore.QMetaObject.connectSlotsByName(Config)
+
+    def retranslateUi(self, Config):
+        _translate = QtCore.QCoreApplication.translate
+        Config.setWindowTitle(_translate("Config", "Config"))
+        self.label.setText(_translate("Config", "Daily Goal"))
+        self.label_2.setText(_translate("Config", "Reserved"))
+        self.label_3.setText(_translate("Config", "Reserved"))
+        self.label_4.setText(_translate("Config", "Reserved"))
+        self.label_5.setText(_translate("Config", "App Root Path"))
+        self.label_6.setText(_translate("Config", "Entries DB name"))
+        self.label_7.setText(_translate("Config", "Reserved"))
+        self.label_8.setText(_translate("Config", "Config File name"))
+        self.label_9.setText(_translate("Config", "Debug Mode"))
